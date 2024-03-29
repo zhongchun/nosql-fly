@@ -6,12 +6,12 @@ public class Product {
 
   private String name;
 
-  private float price;
+  private double price;
 
   public Product() {
   }
 
-  public Product(String id, String name, float price) {
+  public Product(String id, String name, double price) {
     this.sku = id;
     this.name = name;
     this.price = price;
@@ -33,11 +33,11 @@ public class Product {
     this.name = name;
   }
 
-  public float getPrice() {
+  public double getPrice() {
     return price;
   }
 
-  public void setPrice(float price) {
+  public void setPrice(double price) {
     this.price = price;
   }
 }
